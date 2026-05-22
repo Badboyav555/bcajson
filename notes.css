@@ -1,0 +1,5 @@
+/* css/notes.css */
+body { background:#f8fafc; font-family:'Inter'; }
+#progressBar { position:fixed; top:0; left:0; height:3px; background:#06b6d4; width:0%; z-index:99; }
+.notes-reader { max-width:700px; margin:20px auto; background:white; border-radius:28px; padding:24px; box-shadow:0 20px 35px -10px rgba(0,0,0,0.05); }
+.blur-content { filter:blur(4px); user-select:none; }
