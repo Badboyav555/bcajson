@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Semester 1",
+    "hindi_name": "सेमेस्टर 1",
+    "subjects_count": 5
+  },
+  {
+    "id": 2,
+    "name": "Semester 2",
+    "hindi_name": "सेमेस्टर 2",
+    "subjects_count": 5
+  },
+  {
+    "id": 3,
+    "name": "Semester 3",
+    "hindi_name": "सेमेस्टर 3",
+    "subjects_count": 6
+  },
+  {
+    "id": 4,
+    "name": "Semester 4",
+    "hindi_name": "सेमेस्टर 4",
+    "subjects_count": 6
+  },
+  {
+    "id": 5,
+    "name": "Semester 5",
+    "hindi_name": "सेमेस्टर 5",
+    "subjects_count": 5
+  },
+  {
+    "id": 6,
+    "name": "Semester 6",
+    "hindi_name": "सेमेस्टर 6",
+    "subjects_count": 5
+  }
+]
