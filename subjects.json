@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Programming in C",
+    "hindi_name": "C प्रोग्रामिंग",
+    "semester_id": 1,
+    "code": "BCA-101"
+  },
+  {
+    "id": 2,
+    "name": "Digital Logic",
+    "hindi_name": "डिजिटल लॉजिक",
+    "semester_id": 1,
+    "code": "BCA-102"
+  },
+  {
+    "id": 3,
+    "name": "Mathematics-I",
+    "hindi_name": "गणित-I",
+    "semester_id": 1,
+    "code": "BCA-103"
+  },
+  {
+    "id": 4,
+    "name": "Communication Skills",
+    "hindi_name": "संचार कौशल",
+    "semester_id": 1,
+    "code": "BCA-104"
+  },
+  {
+    "id": 5,
+    "name": "IT Fundamentals",
+    "hindi_name": "आईटी फंडामेंटल्स",
+    "semester_id": 1,
+    "code": "BCA-105"
+  },
+  {
+    "id": 6,
+    "name": "Data Structures",
+    "hindi_name": "डेटा स्ट्रक्चर्स",
+    "semester_id": 2,
+    "code": "BCA-201"
+  },
+  {
+    "id": 7,
+    "name": "DBMS",
+    "hindi_name": "डीबीएमएस",
+    "semester_id": 2,
+    "code": "BCA-202"
+  },
+  {
+    "id": 8,
+    "name": "OOP with C++",
+    "hindi_name": "C++ के साथ OOP",
+    "semester_id": 2,
+    "code": "BCA-203"
+  }
+]
