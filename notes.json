@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "History & Features of C",
+    "hindi_title": "C का इतिहास और विशेषताएं",
+    "unit_id": 1,
+    "content": "C programming language was developed by Dennis Ritchie at Bell Labs in 1972. It is a general-purpose, procedural programming language.\n\nKey Features of C:\n- Simple and Efficient\n- Portable\n- Rich Library\n- Modularity\n- Middle-level language\n\nBasic Structure of C Program:\n\n#include <stdio.h>\nint main() {\n    printf(\"Hello World\");\n    return 0;\n}\n\nC is widely used in system programming, embedded systems, and developing operating systems like UNIX.\n\nData Types in C:\n- int: Integer values\n- float: Decimal numbers\n- char: Single character\n- double: Large decimal numbers\n\nVariables are containers for storing data values. In C, you must declare the type of variable before using it.\n\nExample:\nint age = 20;\nfloat price = 99.99;\nchar grade = 'A';"
+  },
+  {
+    "id": "2",
+    "title": "Variables & Data Types",
+    "hindi_title": "वेरिएबल और डेटा टाइप",
+    "unit_id": 1,
+    "content": "Variables are memory locations used to store data. Each variable in C has a specific type.\n\nRules for naming variables:\n1. Must start with letter or underscore\n2. Can contain letters, digits, underscores\n3. Case-sensitive\n4. Cannot use keywords\n\nData Types:\n\nPrimary Data Types:\n- int (2 or 4 bytes)\n- float (4 bytes)\n- char (1 byte)\n- double (8 bytes)\n\nDerived Data Types:\n- Arrays\n- Pointers\n- Structures\n- Unions\n\nExample Program:\n#include <stdio.h>\nint main() {\n    int a = 10;\n    float b = 5.5;\n    char c = 'X';\n    printf(\"Integer: %d\\n\", a);\n    printf(\"Float: %.2f\\n\", b);\n    printf(\"Character: %c\\n\", c);\n    return 0;\n}"
+  },
+  {
+    "id": "3",
+    "title": "If-Else & Switch Case",
+    "hindi_title": "इफ-एल्स और स्विच केस",
+    "unit_id": 2,
+    "content": "Control structures determine the flow of program execution.\n\nIf Statement:\nif (condition) {\n    // code\n}\n\nIf-Else:\nif (condition) {\n    // true block\n} else {\n    // false block\n}\n\nElse-If Ladder:\nif (marks >= 90) grade = 'A';\nelse if (marks >= 70) grade = 'B';\nelse grade = 'C';\n\nSwitch Case:\nswitch(expression) {\n    case 1: printf(\"One\"); break;\n    case 2: printf(\"Two\"); break;\n    default: printf(\"Other\");\n}\n\nLoops:\n- for loop\n- while loop\n- do-while loop"
+  },
+  {
+    "id": "4",
+    "title": "Binary & Decimal Conversion",
+    "hindi_title": "बाइनरी और डेसीमल रूपांतरण",
+    "unit_id": 4,
+    "content": "Number systems are the foundation of digital computers.\n\nTypes:\n1. Binary (Base 2): 0, 1\n2. Decimal (Base 10): 0-9\n3. Octal (Base 8): 0-7\n4. Hexadecimal (Base 16): 0-9, A-F\n\nDecimal to Binary:\nDivide by 2 repeatedly, read remainders bottom-up.\nExample: 25\n25/2=12 rem 1\n12/2=6 rem 0\n6/2=3 rem 0\n3/2=1 rem 1\n1/2=0 rem 1\nResult: 11001\n\nBinary to Decimal:\nMultiply each bit by 2^position.\n1101 = 1×8 + 1×4 + 0×2 + 1×1 = 13"
+  }
+]
