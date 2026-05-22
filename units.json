@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Introduction to C",
+    "hindi_name": "C का परिचय",
+    "subject_id": 1,
+    "notes_count": 3
+  },
+  {
+    "id": 2,
+    "name": "Control Structures",
+    "hindi_name": "नियंत्रण संरचनाएं",
+    "subject_id": 1,
+    "notes_count": 2
+  },
+  {
+    "id": 3,
+    "name": "Functions & Arrays",
+    "hindi_name": "फंक्शन और ऐरे",
+    "subject_id": 1,
+    "notes_count": 2
+  },
+  {
+    "id": 4,
+    "name": "Number Systems",
+    "hindi_name": "नंबर सिस्टम",
+    "subject_id": 2,
+    "notes_count": 2
+  },
+  {
+    "id": 5,
+    "name": "Boolean Algebra",
+    "hindi_name": "बूलियन अलजेब्रा",
+    "subject_id": 2,
+    "notes_count": 1
+  },
+  {
+    "id": 6,
+    "name": "Arrays & Linked Lists",
+    "hindi_name": "ऐरे और लिंक्ड लिस्ट",
+    "subject_id": 6,
+    "notes_count": 3
+  },
+  {
+    "id": 7,
+    "name": "Stacks & Queues",
+    "hindi_name": "स्टैक और क्यू",
+    "subject_id": 6,
+    "notes_count": 2
+  }
+]
