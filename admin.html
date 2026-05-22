@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin · BCA Notes</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h3>BCA Admin</h3>
+      <a href="#" class="active" data-section="leads">📋 Leads</a>
+      <a href="#" data-section="generate">⚡ Generate JSON</a>
+    </aside>
+    <main class="content">
+      <div id="leadsSection">
+        <h2>Leads Management</h2>
+        <div class="stats">Total: <span id="totalLeads">0</span> | Today: <span id="todayLeads">0</span></div>
+        <input type="text" id="leadSearch" placeholder="Search leads..." style="margin:10px 0; padding:10px; width:100%; border-radius:12px;">
+        <table id="leadsTable"><thead><tr><th>Name</th><th>Mobile</th><th>Note</th><th>Date</th><th>Action</th></tr></thead><tbody></tbody></table>
+        <button id="exportCSV">Export CSV</button>
+      </div>
+      <div id="generateSection" style="display:none;">
+        <h2>Generate JSON</h2>
+        <select id="jsonType"><option value="semesters">Semester</option><option value="subjects">Subject</option></select>
+        <textarea id="jsonOutput" rows="10" style="width:100%; margin-top:10px;"></textarea>
+        <button id="copyJson">Copy JSON</button>
+      </div>
+    </main>
+  </div>
+  <script src="js/admin.js"></script>
+</body>
+</html>
