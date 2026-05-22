@@ -1,0 +1,8 @@
+/* css/admin.css */
+.admin-layout { display:flex; min-height:100vh; }
+.sidebar { width:240px; background:#0f172a; color:white; padding:20px; }
+.sidebar a { display:block; color:#cbd5e1; padding:10px; border-radius:12px; margin:5px 0; text-decoration:none; }
+.sidebar a.active { background:#0891b2; }
+.content { flex:1; padding:25px; background:#f1f5f9; }
+table { width:100%; border-collapse:collapse; background:white; border-radius:16px; overflow:hidden; }
+th, td { padding:12px; text-align:left; }
